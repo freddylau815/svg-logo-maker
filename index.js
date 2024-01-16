@@ -4,6 +4,8 @@ const questions = require('./lib/questions')
 const generateSVG = require('./lib/generateSVG')
 
 inquirer.prompt(questions).then((answerObj) => {
-    const svgFile = generateSVG(answerObj)
-    writeFile('./examples/generated.SVG', svgFile)
+    const svgFile = generateSVG(answerObj, answerObj.shape)
+    fs.writeFile('./examples/generated.svg', svgFile, (err) => {
+        if (err) return console.log(err)
+    })
 })
