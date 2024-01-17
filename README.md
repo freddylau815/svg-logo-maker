@@ -14,12 +14,12 @@ Link to deployed code: https://freddylau815.github.io/svg-logo-maker/
  - Jest for testing
 
 ## Usage
-Run node index.js in command-line terminal to prompt user for answers
+Run node index.js in command-line terminal to prompt user for answers<br>
 Link to demo video: https://drive.google.com/drive/folders/18pTuInAt9FHzeqnRZtE_JByMJCchAuLP?usp=sharing 
 
 ## License
 ![MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 
 ## Questions
-Github Account: https://github.com/freddylau815
+Github Account: https://github.com/freddylau815<br>
 Email: freddylaudesign@gmail.com
