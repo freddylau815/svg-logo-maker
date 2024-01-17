@@ -5,12 +5,17 @@ const generateSVG = require('./lib/generateSVG')
 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
-        if (err) 
-         return console.log(err)
-        })
+        if (err)
+            return console.log(err)
+    })
 }
 
-inquirer.prompt(questions).then((answerObj) => {
-    const svgFile = generateSVG(answerObj)
-    writeToFile('./examples/logo.svg', svgFile)
-})
+function init() {
+    inquirer.prompt(questions).then((answerObj) => {
+        const svgFile = generateSVG(answerObj)
+        writeToFile('./examples/logo.svg', svgFile)
+    })
+}
+
+init();
+
