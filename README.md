@@ -19,3 +19,7 @@ Link to demo video: https://drive.google.com/drive/folders/18pTuInAt9FHzeqnRZtE_
 
 ## License
 ![MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)
+
+## Questions
+Github Account: https://github.com/freddylau815
+Email: freddylaudesign@gmail.com
