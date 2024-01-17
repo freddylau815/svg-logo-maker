@@ -12,5 +12,5 @@ function writeToFile(fileName, data) {
 
 inquirer.prompt(questions).then((answerObj) => {
     const svgFile = generateSVG(answerObj)
-    writeToFile('./examples/generated.svg', svgFile)
+    writeToFile('./examples/logo.svg', svgFile)
 })
